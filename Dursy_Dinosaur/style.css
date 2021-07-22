@@ -1,0 +1,60 @@
+#okno
+{
+
+    width: 500px;
+    height: 300px;
+    background-image: url(1.jpg);
+    margin: 0 auto;
+    /*background-position: -200px 0px;*/
+    animation: okno 8s linear infinite;
+    position: relative;
+
+}
+
+@keyframes okno 
+{
+
+    0% {background-position: 0px 0px;}
+    100%{background-position: -1200px 0px;}
+
+}
+
+#dino
+{
+
+    position: relative;
+    top: 100px;
+    left: 100px;
+    height: 200px;
+    width: 200px;
+    background-image: url(tenor.gif);
+    background-size: cover;
+
+}#btn
+{
+
+    width: 300px;
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 120px;
+    background-color: aqua;
+    
+}
+
+.jump
+{
+
+    animation: jump 4s linear;
+
+}
+
+@keyframes jump
+{
+
+    0% {top: 180px}
+    30%{top: 80px}
+    70%{top: 80px}
+    100%{top: 180px}
+
+}
